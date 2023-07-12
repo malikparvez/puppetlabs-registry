@@ -20,6 +20,8 @@ This module supplies the types and providers you'll need to manage the Registry 
 
 The Registry is a hierarchical database built into Microsoft Windows. It stores settings and other information for the operating system and a wide range of applications. This module lets Puppet manage individual Registry keys and values, and provides a simplified way to manage Windows services.
 
+
+
 ## Setup
 
 This module must be installed on your Puppet server. For a complete list of supported operating systems, please take a look at our [metadata.json](https://github.com/puppetlabs/puppetlabs-registry/blob/main/metadata.json#L13).
