@@ -3,6 +3,7 @@
 
 #### Table of Contents
 
+
 1. [Overview - What is the registry module?](#overview)
 2. [Module Description - What registry does and why it is useful](#module-description)
 3. [Setup - The basics of getting started with registry](#setup)
