@@ -1,11 +1,17 @@
-name: "Labeller"
+name: Labeller
 
 on:
-  pull_request:
+  issues:
     types:
       - opened
       - labeled
       - unlabeled
+  pull_request_target:
+    types:
+      - opened
+      - labeled
+      - unlabeled
+
 jobs:
   label:
     runs-on: ubuntu-latest
@@ -16,6 +22,6 @@ jobs:
         with:
           label_name: community
           label_color: '5319e7'
-          fail_if_member: 'true'
           org_membership: puppetlabs
+          fail_if_member: 'true'
           token: ${{ secrets.IAC_COMMUNITY_LABELER }}
