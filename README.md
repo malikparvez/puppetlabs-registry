@@ -1,6 +1,8 @@
 # registry
 [![Build Status](https://travis-ci.org/puppetlabs/puppetlabs-registry.png?branch=main)](https://travis-ci.org/puppetlabs/puppetlabs-registry)
 
+
+
 #### Table of Contents
 
 1. [Overview - What is the registry module?](#overview)
