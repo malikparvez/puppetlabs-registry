@@ -40,6 +40,8 @@ registry_key { 'HKLM\System\CurrentControlSet\Services\Puppet':
 
 The registry module works mainly through two types: `registry_key` and `registry_value`. These types combine to let you specify a Registry container and its intended contents.
 
+
+
 ### Manage a single Registry value
 
 ``` puppet
