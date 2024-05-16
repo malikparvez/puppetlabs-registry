@@ -138,6 +138,8 @@ notice: /Stage[main]/Registry::Purge_example/Registry_value[HKLM\Software\Vendor
 notice: Finished catalog run in 0.16 seconds
 ```
 
+
+
 ### Manage Windows services
 
 The `registry::service` define manages entries in the Microsoft service control framework by automatically manipulating values in the key `HKLM\System\CurrentControlSet\Services\$name\`.
